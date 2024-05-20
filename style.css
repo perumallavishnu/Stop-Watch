@@ -1,0 +1,46 @@
+@font-face {
+    font-family: myfont;
+    src: url(Bad\ Signal.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: myfont;
+}
+body{
+    background-color: #292727;
+}
+.title{
+    font-size: 14rem;
+    text-align: center;
+    color: #b22626;
+    text-shadow: 0 0 23px black;
+}
+.timerBtn{
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    border: 3px solid 333333;
+    border-radius: 12px;
+    margin: 15px;
+    background-color: #333333;
+    color: #42b6f0;
+    cursor: pointer;
+    font-size: 1.5rem;
+    text-shadow: 0 0 13px black;
+}
+
+#timeDisplay{
+    font-size: 10rem;
+    color: #51b0df;
+    text-shadow: 0 0 23px black;
+}
+
+#timeContainer{
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: #222222;
+}
